@@ -2,10 +2,9 @@ package view.client;
 
 import javax.swing.JFrame;
 
+public class Home extends javax.swing.JFrame {
 
-public class home extends javax.swing.JFrame {
-
-    public home() {
+    public Home() {
         initComponents();
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
@@ -393,7 +392,7 @@ public class home extends javax.swing.JFrame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new home().setVisible(true);
+                new Home().setVisible(true);
             }
         });
     }
