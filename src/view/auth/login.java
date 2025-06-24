@@ -1,8 +1,8 @@
 package view.auth;
 
-public class login extends javax.swing.JFrame {
+public class Login extends javax.swing.JFrame {
 
-    public login() {
+    public Login() {
         initComponents();
     }
 
@@ -121,7 +121,7 @@ public class login extends javax.swing.JFrame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new login().setVisible(true);
+                new Login().setVisible(true);
             }
         });
     }
