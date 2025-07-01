@@ -50,7 +50,7 @@ public class Menudashboard extends javax.swing.JPanel {
         setPreferredSize(new java.awt.Dimension(1358, 882));
         setLayout(new java.awt.CardLayout());
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
         jPanel1.setPreferredSize(new java.awt.Dimension(1358, 882));
 
         panelCostum1.setBackground(new java.awt.Color(51, 51, 255));
@@ -265,7 +265,7 @@ public class Menudashboard extends javax.swing.JPanel {
                         .addComponent(panelCostum2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(10, 10, 10)
                         .addComponent(panelCostum3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
+                        .addGap(10, 10, 10)
                         .addComponent(panelCostum4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 888, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18))
